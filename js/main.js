@@ -1,12 +1,11 @@
 const toggle = document.getElementById('themeToggle');
+const roleToggle = document.getElementById('roleToggle');
+const roleText = document.getElementById('roleText');
 
 toggle.addEventListener('click', () => {
   document.body.classList.toggle('light');
   toggle.textContent = document.body.classList.contains('light') ? '🌞' : '🌙';
 });
-
-const roleToggle = document.getElementById('roleToggle');
-const roleText = document.getElementById('roleText');
 
 let recruiter = true;
 
